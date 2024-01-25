@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import { useInterval } from '../hooks/use-interval';
 import { Button } from './button';
 import { Timer } from './timer';
-import { secondsToTime } from '../utils/seconds-to-time';
+import { secondsToTime } from '../utils/seconds-to-minutes';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const bellStart = require('../sounds/bell-start.mp3');
